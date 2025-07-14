@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Clothing Design SaaS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+<div class="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl p-6">
+
+    <h2 class="text-xl font-bold text-center mb-4">עיצוב AI לבגדים</h2>
+
+    <input type="text" placeholder="תאר את העיצוב שלך..." class="w-full border rounded-md p-2 mb-4">
+
+    <div class="mb-4">
+        <label class="font-semibold">סגנון:</label>
+        <div class="flex gap-2 mt-2">
+            <button class="px-4 py-2 rounded-md border">מינימליסטי</button>
+            <button class="px-4 py-2 rounded-md border">ריאליסטי</button>
+            <button class="px-4 py-2 rounded-md border">אמנותי</button>
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <label class="font-semibold">בחר סוג בגד:</label>
+        <select class="w-full border rounded-md p-2 mt-2">
+            <option>טי-שירט</option>
+            <option>קפוצ'ון</option>
+            <option>גופייה</option>
+            <option>סווטשירט</option>
+        </select>
+    </div>
+
+    <div class="mb-4">
+        <label class="font-semibold">פלטת צבעים:</label>
+        <input type="color" class="w-full h-12 border rounded-md mt-2">
+    </div>
+
+    <button class="w-full bg-green-500 text-white py-2 rounded-md font-bold">צור עיצוב</button>
+
+    <div class="mt-6 text-center">
+        <h3 class="font-semibold mb-2">תצוגה מקדימה:</h3>
+        <div class="border-dashed border-2 border-gray-300 h-64 rounded-md flex items-center justify-center">
+            תמונה שנוצרה תוצג כאן
+        </div>
+    </div>
+
+    <div class="flex gap-4 justify-center mt-6">
+        <button class="bg-blue-500 text-white py-2 px-4 rounded-md">הורד תמונה (PNG)</button>
+        <button class="bg-gray-500 text-white py-2 px-4 rounded-md">הצג על דוגמן</button>
+        <button class="bg-purple-500 text-white py-2 px-4 rounded-md">שלח ל-Printful</button>
+        <button class="bg-orange-500 text-white py-2 px-4 rounded-md">העלה ל-Shopify</button>
+    </div>
+
+</div>
+
+</body>
+</html>
